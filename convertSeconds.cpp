@@ -31,18 +31,18 @@ void secToDay(int sec){
     int seconds = sec;
 	if(day==0)				//displays day as sunday
 		cout<< dayOfWeek[0] << " "<<  hour << ":" << minutes << ":" << seconds; 
-     else if (day == 1 )	//displays day as monday	
-     	cout<< dayOfWeek[1] << " "<<  hour << ":" << minutes << ":" << seconds; 
-     else if (day == 2)	//displays day as tuesday 
-     	cout<< dayOfWeek[2] << " "<<  hour << ":" << minutes << ":" << seconds; 
+    	 else if (day == 1 )	//displays day as monday	
+     		cout<< dayOfWeek[1] << " "<<  hour << ":" << minutes << ":" << seconds; 
+    	 else if (day == 2)	//displays day as tuesday 
+     		cout<< dayOfWeek[2] << " "<<  hour << ":" << minutes << ":" << seconds; 
 	else if (day == 3)	//displays day as wednesday
-     	cout<< dayOfWeek[3] << " "<<  hour << ":" << minutes << ":" << seconds; 
+     		cout<< dayOfWeek[3] << " "<<  hour << ":" << minutes << ":" << seconds; 
 	else if (day == 4)	//displays day as thursday 
-     	cout<< dayOfWeek[4] << " "<<  hour << ":" << minutes << ":" << seconds; 
+     		cout<< dayOfWeek[4] << " "<<  hour << ":" << minutes << ":" << seconds; 
 	else if (day == 5)	//displays day as friday
-     	cout<< dayOfWeek[5] << " "<<  hour << ":" << minutes << ":" << seconds; 
+     		cout<< dayOfWeek[5] << " "<<  hour << ":" << minutes << ":" << seconds; 
 	else if (day == 6)	//displays day as saturday 
-     	cout<< dayOfWeek[6] << " "<<  hour << ":" << minutes << ":" << seconds; 
+     		cout<< dayOfWeek[6] << " "<<  hour << ":" << minutes << ":" << seconds; 
 	else 
 		cout << "invalid entry" <<endl;
 
